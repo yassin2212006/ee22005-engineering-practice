@@ -44,6 +44,22 @@ A program that reads temperature data from a CSV file, stores each reading as an
 Design matrices and choice matrices to compare options, a feasibility study, quality management, risk assessment, a Gantt chart, project management write-ups, a circular economy design review (life-cycle CO2 and cost of a robotic arm and a mouse robot) and product production costing.
 - Files: `dp_design_matrix.xlsx`, `dp_design_matrix_project_week_2.xlsx`, `dp_choice_matrix.xlsx`, `dp_feasibility_study.docx`, `dp_quality_management.docx`, `dp_risk_assessment.docx`, `dp_advanced_project_management.docx`, `dp_gantt_chart.pdf`, `dp_circular_economy_design.pdf`, `dp_product_production_costing.png`
 
+### Signal processing and filter design
+- Spectrum analysis of a laboratory time-series signal: 25 microsecond sampling interval, 80,000 samples, 2 s recording, FFT in MATLAB. Files: `spectrum_analysis_time_signal.png`, `spectrum_analysis_knowledge.png`, `spectrum_analysis_application.png`, `spectrum_analysis_application_time.png`, `spectrum_analysis_signal_results.docx`
+- Band-pass FIR filter (Hamming window) designed to isolate a 433-435 Hz machine vibration from other frequencies, with before and after time and frequency plots. Files: `fir_filter_design_specification.png`, `fir_filter_design_results.png`
+- More circuit simulations: `circuit_simulation_waveform_2.png`, `circuit_simulation_schematic_2.png`, `circuit_simulation_waveform_3.png`
+
+### Mouse robot (project week 3) and laboratory investigation
+Battery-powered autonomous mouse that follows a 20 m wire track. My investigation covers DC motor speed testing with a power supply and optical tachometer (wheel speed needed to finish 20 m in 10 s) and pick-up coil signal testing.
+- Files: `mouse_robot_lab_investigation.pdf`, `wireless_project_management.docx`, `risk_assessment_and_mitigation.pdf`
+
+### Code
+- Python `Dice` class with documented methods, type hints and error handling: `python_dice_class_code.pdf`
+
+### Certificates
+MathWorks self-paced courses: Classification, Regression, Cluster Analysis and Dimensionality Reduction with Machine Learning (March 2026), and Simscape Onramp (May 2026).
+- Files: `mathworks_classification_certificate.pdf`, `mathworks_regression_certificate.pdf`, `mathworks_cluster_analysis_certificate.pdf`, `mathworks_dimensionality_reduction_certificate.pdf`, `mathworks_simscape_onramp_certificate.pdf`
+
 ### Personal project: energy-efficient LED lighting system
 Design and evaluation of a high-efficiency switch-mode LED driver, with measurements of efficiency, power consumption and driver losses, and a regenerative design and sustainability analysis.
 - Files: `led_lighting_system_report.docx`, `regenerative_design_led_project.pdf`, `sustainable_energy_management.docx`, `executive_summary_led_project.docx`
